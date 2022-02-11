@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Universidad_el_Futuro_Ahora.CarpetaPrueba
 {
-    public class Class3
+    public class ClasePersonalizada
     {
     }
 }
