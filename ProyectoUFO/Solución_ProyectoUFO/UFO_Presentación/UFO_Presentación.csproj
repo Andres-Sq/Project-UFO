@@ -87,6 +87,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="css\styles.css" />
     <Content Include="img\Logo.jpg" />
+    <Content Include="img\universidad.png" />
     <Content Include="Inicio.aspx" />
     <Content Include="Principal.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
