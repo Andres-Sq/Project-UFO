@@ -1,0 +1,26 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Varela+Round&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+/*
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Varela Round', sans-serif;
+font-family: 'Zen Kurenaido', sans-serif;
+*/
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+.navbar {
+    background: #FFC300;
+    color: white;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover {
+    color: white; 
+}
