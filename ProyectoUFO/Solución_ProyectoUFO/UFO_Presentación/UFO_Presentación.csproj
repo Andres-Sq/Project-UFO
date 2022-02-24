@@ -84,6 +84,7 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="css\Animacion_inicio.css" />
+    <Content Include="css\normalize.css" />
     <Content Include="css\styles.css" />
     <Content Include="img\Logo.jpg" />
     <Content Include="Inicio.aspx" />
