@@ -33,7 +33,6 @@
             </div>
             <!--Section para la foto de portada-->
             <section class="foto-fondo">
-                <img src="img/Logo.jpg" alt="Alternate Text" />
                 <div class="contenido-fondo">
                     <h2> Siempre tendras un futuro </h2>
                     <div class="ubicacion">
@@ -44,8 +43,47 @@
                          </svg>
                         <p>Costa Rica, San Jose</p>
                     </div>
+                    <a class="boton-contactar" href="#">Contactar</a>
                 </div>
             </section>
+            <main class="contenedor sombra">
+                <h2>Información</h2>
+                <section>
+                    <h3>Virtual</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                         <line x1="3" y1="19" x2="21" y2="19" />
+                         <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+                    <p>La universidad no dispone de sedes físicas, sino que son carreras 100% virtuales</p>
+                </section>
+
+                <section>
+                    <h3>Nosotros</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <line x1="8" y1="21" x2="16" y2="21" />
+                            <line x1="12" y1="17" x2="12" y2="21" />
+                            <line x1="7" y1="4" x2="17" y2="4" />
+                            <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
+                            <circle cx="5" cy="9" r="2" />
+                            <circle cx="19" cy="9" r="2" />
+                    </svg>
+                    <p>Es un nuevo centro académico que está orientado a brindar a sus estudiantes la mejor experiencia.</p>
+                </section>
+
+                <section>
+                    <h3>Carreras</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+                      <line x1="13" y1="8" x2="15" y2="8" />
+                      <line x1="13" y1="12" x2="15" y2="12" />
+                    </svg>
+                    <p>Las carreras constan de una malla de cursos. La malla matricular esya orientada a que los estudiantes puedan matricular los cursos que deseen,
+                        siempre y cuando tengan los requisitos</p>
+                </section>
+            </main>
         </div>
     </form>
 </body>
