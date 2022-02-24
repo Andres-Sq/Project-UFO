@@ -6,7 +6,9 @@
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Universidad del Futuro | Principal</title>
-    <link href="Content/bootstrap.min.css" rel="stylesheet"/>  
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet"/> 
+     <link rel="preload" href="css/styles.css" as="style"/>
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
@@ -17,31 +19,17 @@
                     <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
                 </Scripts>
             </asp:ScriptManager>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
+            <header>
+                <h1> Universidad del Futuro</h1>
+            </header>
+            <div class="nav-bg">
+                <nav class="navegacion-principal contenedor">
+                    <a href="#">Inicio</a>
+                    <a href="#">Inicio</a>
+                    <a href="#">Inicio</a>
+                    <a href="#">Inicio</a>
+                </nav>
+            </div>
 
         </div>
     </form>
