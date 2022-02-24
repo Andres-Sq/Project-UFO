@@ -33,6 +33,7 @@
             </div>
             <!--Section para la foto de portada-->
             <section class="foto-fondo">
+                <img src="img/Logo.jpg" alt="Alternate Text" />
                 <div class="contenido-fondo">
                     <h2> Siempre tendras un futuro </h2>
                     <div class="ubicacion">
