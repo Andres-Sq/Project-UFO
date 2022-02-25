@@ -24,11 +24,11 @@
             </header>
             <div class="nav-bg">
                 <nav class="navegacion-principal contenedor">
-                    <a href="#">Inicio</a>
-                    <a href="#">Matrícula</a>
-                    <a href="#">Estados</a>
-                    <a href="#">Notas </a>
-                    <a href="#">Matricula por Estudiante</a>
+                    <a href="Principal.aspx">Inicio</a>
+                    <a href="Matricula.aspx">Matrícula</a>
+                    <a href="Estados.aspx">Estados</a>
+                    <a href="Notas.aspx">Notas </a>
+                    <a href="MatriculaxEstudiantes.aspx">Matricula por Estudiante</a>
                 </nav>
             </div>
             <!--Section para la foto de portada-->
@@ -58,7 +58,7 @@
                               <rect x="5" y="6" width="14" height="10" rx="1" />
                            </svg>
                         </div>
-                        <p>La universidad no dispone de sedes físicas, sino que son carreras 100% virtuales</p>
+                        <p>La universidad no dispone de sedes físicas, sino que son carreras 100% virtuales.</p>
                     </section>
 
                     <section class="servicio">
@@ -89,8 +89,7 @@
                             </svg>
                         </div>
                         <p>
-                            Las carreras constan de una malla de cursos. La malla matricular esya orientada a que los estudiantes puedan matricular los cursos que deseen,
-                        siempre y cuando tengan los requisitos
+                            Constan de una malla de cursos, esta orientada a que los estudiantes matriculen los cursos que deseen.
                         </p>
                     </section>
                 </div>
