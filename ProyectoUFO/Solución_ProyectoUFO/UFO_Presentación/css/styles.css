@@ -24,7 +24,7 @@ html {
 }
 body {
     font-size: 16px;
-    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;  
 }
 /*Reglas Tipografia*/
 h1 {
@@ -133,3 +133,34 @@ h1, h2, h3 {
     border-radius: 1rem;
 }
 /*informacion*/
+@media (min-width: 768px) {
+    .servicios {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+servicio {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicio h3 {
+    color: #143E69;
+    font-weight: normal;
+}
+
+.servicio p {
+    line-height: 2;
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: #143E69;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
