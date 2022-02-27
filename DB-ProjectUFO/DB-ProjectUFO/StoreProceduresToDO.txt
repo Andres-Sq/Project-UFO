@@ -1,24 +1,29 @@
 -PERIODOS Y NOTAS
 
 
-1-SP_Cambiar_A_Finalizado
+1-SP_Cambiar_A_Finalizado (COMPLETADO) 25%
 	-Validar que el estado actual
 	del estado sea ABIERTO
 	-Cambia el estado a FINALIZADO
 
-2-SP_Cambiar_A_Cerrado
+2-SP_Cambiar_A_Cerrado  (COMPLETADO) 50%
 	-Validar que el estado actual
 	sea FINALIZADO
+
 	-Comprobar que exista una nota entre 1-100
+
 	-Cambiar a CERRADO
 	
+3-SP_Agregar_Notas (COMPLETADO) 75%
 
-3-SP_Agregar_Notas
 	-Validar que el estado sea FINALIZADO
 	-Se agrega en la tabla CursosPorEstudiantes
 	-Ejecutar el SP_Cambiar_A_Cerrado.
 
-4-SP_Asignar_EstadoCurso
+4-SP_Asignar_EstadoCurso (COMPLETADO) 100% 
 	-Valida que la nota actual sea mayor que 
 	la nota de aprobacion y lo pone en APROBADO
 	-De lo contrario lo poner en REPROBADO
+
+	
+	

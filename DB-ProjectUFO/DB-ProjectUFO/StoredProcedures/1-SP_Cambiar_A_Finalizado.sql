@@ -1,0 +1,11 @@
+
+CREATE PROCEDURE CAMBIO_ESTADO_FINALIZADO
+	@PERIODOID INT
+AS
+BEGIN
+
+	UPDATE [dbo].[PeriodoLectivo]
+	SET [Estado] = 2      
+	WHERE [Estado] = 1 AND @PERIODOID = PeriodoID
+
+END
