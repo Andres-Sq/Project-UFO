@@ -52,11 +52,11 @@
                     <section class="servicio">
                         <h3>Virtual</h3>
                         <div class="iconos">
-                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                              <line x1="3" y1="19" x2="21" y2="19" />
-                              <rect x="5" y="6" width="14" height="10" rx="1" />
-                           </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="3" y1="19" x2="21" y2="19" />
+                                <rect x="5" y="6" width="14" height="10" rx="1" />
+                            </svg>
                         </div>
                         <p>La universidad no dispone de sedes físicas, sino que son carreras 100% virtuales.</p>
                     </section>
@@ -65,13 +65,13 @@
                         <h3>Nosotros</h3>
                         <div class="iconos">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trophy" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                              <line x1="8" y1="21" x2="16" y2="21" />
-                              <line x1="12" y1="17" x2="12" y2="21" />
-                              <line x1="7" y1="4" x2="17" y2="4" />
-                              <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
-                              <circle cx="5" cy="9" r="2" />
-                              <circle cx="19" cy="9" r="2" />
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <line x1="8" y1="21" x2="16" y2="21" />
+                                <line x1="12" y1="17" x2="12" y2="21" />
+                                <line x1="7" y1="4" x2="17" y2="4" />
+                                <path d="M17 4v8a5 5 0 0 1 -10 0v-8" />
+                                <circle cx="5" cy="9" r="2" />
+                                <circle cx="19" cy="9" r="2" />
                             </svg>
                         </div>
 
@@ -82,10 +82,10 @@
                         <h3>Carreras</h3>
                         <div class="iconos">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-notebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                              <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
-                              <line x1="13" y1="8" x2="15" y2="8" />
-                              <line x1="13" y1="12" x2="15" y2="12" />
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" />
+                                <line x1="13" y1="8" x2="15" y2="8" />
+                                <line x1="13" y1="12" x2="15" y2="12" />
                             </svg>
                         </div>
                         <p>
@@ -94,6 +94,95 @@
                     </section>
                 </div>
             </main>
+            <!--Integrantes-->
+            <main class="contenedor">
+                <h2>Desarrolladores</h2>
+                <div class="integrantes">
+                    <!--Maria Jose-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#900C3F" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Maria J. Rojas Ocontrillo </h3>
+                    </section>
+                    <!--Jason-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Jason J. Gonzalez Salas </h3>
+                    </section>
+                    <!--Juan-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Juan F. Lopez Ovares</h3>
+                    </section>
+                    <!--Josue-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Josue D. Espinoza Siles </h3>
+                    </section>
+                    <!--Andres-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Hernan A. Sequeira Ugalde </h3>
+                    </section>
+                    <!--Angelo-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Angelo Castañeda Sanchez </h3>
+                    </section>
+                    <!--Erickson-->
+                    <section class="integrante">
+                        <div class="icono">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="80" height="80" viewBox="0 0 24 24" stroke-width="1.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="12" cy="7" r="4" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </div>
+                        <h3>Erickson M. Quesada Gonzáles </h3>
+                    </section>
+                </div>
+            </main>
+            <br />
+            <footer class="page-footer font-small white">
+                <div class="blockquote-footer-copyright text-center py-3">
+                    © 2022 Copyright: Proyecto de Administracion y Control.
+                </div>
+            </footer>
         </div>
     </form>
 </body>

@@ -16,6 +16,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <header>
+                <h1 style="text-align: center">Universidad del Futuro</h1>
+            </header>
             <div class="nav-bg">
                 <nav class="navegacion-principal contenedor">
                     <a href="Principal.aspx">Inicio</a>
@@ -25,20 +28,15 @@
                     <a href="MatriculaxEstudiantes.aspx">Matricula por Estudiante</a>
                 </nav>
             </div>
-            
-            <!--tabla-->
-            <section class="contenedor sombra">
-                <div class="">
-                <!--Botones-->
+            <br />
+            <!--Seccion Botones y Tabla-->
+            <section class="caja-botones contenedor">
                 <div>
-                    <asp:LinkButton id="btnListar"  CssClass="boton-L" runat="server"> <i class="fa-solid fa-table-list"></i></asp:LinkButton>
-                    <asp:LinkButton id="btnAgregar"  CssClass="boton-A" runat="server"> <i class="fa-solid fa-plus"></i></asp:LinkButton>
-                    <asp:LinkButton id="btnModificar"  CssClass="boton-L" runat="server"> <i class=""></i></asp:LinkButton>
+                    <asp:LinkButton id="btnListar" CssClass="boton-L" runat="server"><i class="fa-solid fa-list"></i></asp:LinkButton>
 
                 </div>
-            </div>
             </section>
-            
+
         </div>
     </form>
 </body>
