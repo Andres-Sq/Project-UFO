@@ -147,20 +147,6 @@ h1, h2, h3 {
     border-radius: .5rem;
     text-align: center;
 }
-/* Botones de las Tablas*/
-.boton-L { /*LISTAR*/
-    background-color:#FFC300;
-    color: white;
-    padding: 1rem 1.5rem;
-    margin-top: .5rem;
-}
-.boton-A { /**AGREGAR**/
-    background-color: white;
-    color: black;
-    padding: 1rem 1.5rem;
-    margin-top: .5rem;  
-}
-}
 /*Caja de contenido*/
 .sombra {
     -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);

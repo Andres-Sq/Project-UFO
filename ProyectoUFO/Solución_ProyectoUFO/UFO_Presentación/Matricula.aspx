@@ -32,8 +32,10 @@
             <!--Seccion Botones y Tabla-->
             <section class="caja-botones contenedor">
                 <div>
-                    <asp:LinkButton id="btnListar" CssClass="boton-L" runat="server"><i class="fa-solid fa-list"></i></asp:LinkButton>
-
+                    <asp:LinkButton id="btnListar" CssClass="boton-contactar" runat="server"><i class="fa-solid fa-list"></i></asp:LinkButton> 
+                </div>
+                <div>
+                    <asp:GridView runat="server" CssClass="table table-dark table-sm"></asp:GridView>
                 </div>
             </section>
 

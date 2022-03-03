@@ -4,12 +4,43 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Notas </title>
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6f42c9f0bc.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
+            <header>
+                <h1 style="text-align: center">Universidad del Futuro</h1>
+            </header>
+            <div class="nav-bg">
+                <nav class="navegacion-principal contenedor">
+                    <a href="Principal.aspx">Inicio</a>
+                    <a href="Matricula.aspx">Matrícula</a>
+                    <a href="Estados.aspx">Estados</a>
+                    <a href="Notas.aspx">Notas </a>
+                    <a href="MatriculaxEstudiantes.aspx">Matricula por Estudiante</a>
+                </nav>
+            </div>
+            <br />
+            <!--Seccion Botones y Tabla-->
+            <section class="caja-botones contenedor">
+                <div class="contenedor txt">
+                    <asp:LinkButton ID="btnListar" CssClass="boton-contactar" runat="server"><i class="fa-solid fa-list"></i></asp:LinkButton>
+                    <asp:LinkButton ID="btnAgregar" CssClass="boton-contactar" runat="server"><i class="fa-solid fa-square-plus"></i></asp:LinkButton>
+                    <asp:TextBox ID="txtID" onkeypress="" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" runat="server" placeholder="ID"></asp:TextBox>
+                    <asp:TextBox ID="txtNota" onkeypress="" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" runat="server" placeholder="Nota Aprovación"></asp:TextBox>
+                    <asp:TextBox ID="txtFecha" onkeypress="" onpaste="return false;" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" runat="server" placeholder="Fecha del Cambio"></asp:TextBox>
+                </div>
+                <div>
+                    <asp:GridView ID="GvNotas" runat="server" CssClass="table table-light table-sm"></asp:GridView>
+                </div>
+            </section>
         </div>
     </form>
 </body>
