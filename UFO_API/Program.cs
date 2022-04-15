@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ProyectoUFO_API
+namespace UFO_API
 {
     public class Program
     {
